@@ -1,0 +1,160 @@
+@import url(JUST\ Sans\ Regular.otf);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@font-face {
+    font-family: JUST;
+    src: url(static/RobotoMono-Italic.ttf);
+}
+
+@font-face {
+    font-family: JUSTR;
+    src: url(static/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: OSWALD;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+.name{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4.5em;
+    width: 700px;
+    user-select: none;
+}
+
+.sub{
+    margin-top: 10px;
+    letter-spacing: 9px;
+    color: white;
+    font-weight: 200;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.named{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1, .img2, .img3, .img4, .img5{
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+
+}
+img{
+    user-select: none;
+}
+
+.imgc{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 30px;
+    
+}
+
+.nc{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-family: OSWALD;
+    user-select: none;
+}
+
+.navbar{
+    display: block;
+    height: 100vh;
+}
+
+
+
+body{
+    background-color:#000A0C ;
+    overflow-x: hidden;
+    
+}
+
+.projects{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    height: 300px;
+}
+
+.searching{
+    color: white;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.current{
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.MY{
+    font-size: 3em;
+    color: white;
+    user-select: none;
+}
+
+
+
+.button{
+    border-radius: 20px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: white solid;
+    border-width: 2px;
+    padding: 0.6em 0.7em;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 0.2s;
+}
+
+.button:hover{
+    cursor: pointer;
+    padding: 0.6em 2em;
+    letter-spacing: 2px;
+}
+
+.buttonlink{
+    text-decoration: none;
+}
+
+.buttonc{
+    display: flex;
+    justify-content: center;
+}
